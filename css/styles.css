@@ -1,6 +1,5 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #e5e5e5;
 }
 
 :root {
@@ -23,7 +22,7 @@ body {
 /* Шапка сайта */
 
 .header-logo-web {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -33,7 +32,7 @@ body {
 }
 
 .header-logo {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -60,13 +59,22 @@ body {
   color: var(--btn-text-color);
 }
 
+.current {
+  color: var(--btn-text-color);
+}
+
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--btn-text-color);
+}
+
 .header-mail {
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--btn-text-color);
+  color: var(--main-text-color);
 }
 
 .header-tel {
@@ -197,7 +205,7 @@ body {
 }
 
 .footer-logo-web {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -206,7 +214,7 @@ body {
 }
 
 .footer-logo {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -215,6 +223,7 @@ body {
 }
 
 .footer-link {
+  font-style: normal;
   font-family: inherit;
   font-weight: 400;
   font-size: 14px;
@@ -224,6 +233,7 @@ body {
 }
 
 .footer-mail {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
@@ -232,6 +242,7 @@ body {
 }
 
 .footer-tel {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
